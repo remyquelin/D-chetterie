@@ -18,12 +18,12 @@ namespace Déchetterie
         private void Form_Résumé_Load(object sender, EventArgs e)
         {
 			label_Nom_Prenom.Text = DonneesChauffeur.NomPrenom;
-			label_Entreprise.Text = DonneesChauffeur.Entreprise;
-			label_TypeDechet.Text = DonneesChauffeur.TypeDechet;
-			label_PoidsPlein.Text = DonneesChauffeur.Poids1 + " kg";
-			label_PoidsVide.Text = DonneesChauffeur.Poids2 + " kg";
-			labelPoidsNet.Text = DonneesChauffeur.PoidsNet + " kg";
-			label_Date.Text = DonneesChauffeur.DatePassage.ToString("dd/MM/yyyy HH:mm");
+			labelEntreprise.Text = DonneesChauffeur.Entreprise;
+			labelDechet.Text = DonneesChauffeur.TypeDechet;
+			labelPoids1.Text = DonneesChauffeur.Poids1 + " kg";
+			labelPoids2.Text = DonneesChauffeur.Poids2 + " kg";
+			labelPoidsnet.Text = DonneesChauffeur.PoidsNet + " kg";
+			labelHorodatage.Text = DonneesChauffeur.DatePassage.ToString("dd/MM/yyyy HH:mm");
 		}
 
         private void button_Retour_Click(object sender, EventArgs e)
